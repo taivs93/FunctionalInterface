@@ -8,6 +8,7 @@ public class Order implements Comparator<Order> {
     private Long id;
     private List<OrderItem> orderItems;
     private LocalDate orderDate;
+    private Customer customer;
 
     public Long getId() {
         return id;

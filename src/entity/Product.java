@@ -4,6 +4,7 @@ public class Product {
     private Long id;
     private String name;
     private Double price;
+    private OrderItem orderItem;
 
     public Product(Long id,String name, Double price) {
         this.id = id;

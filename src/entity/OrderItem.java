@@ -4,6 +4,7 @@ public class OrderItem {
     private Long id;
     private Product product;
     private Integer quantity;
+    private Order order;
 
     public Long getId() {
         return id;
